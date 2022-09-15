@@ -5,7 +5,7 @@
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
-  border: none;
+  outline: none;
 }
 
 .website {
@@ -27,13 +27,13 @@
 }
 
 .website > .website-header > .header-menu {
-  width: 1500px;
+  width: 1250px;
   margin: 10px auto;
   background: #000;
 }
 
 .website > .website-header > .header-menu > ul {
-  width: 1500px;
+  width: 1250px;
   height: 68px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -54,13 +54,13 @@
   display: block;
   text-align: center;
   text-decoration: none;
-  margin: 0px 10px 0px 10px;
+  margin: 0px 20px 0px 20px;
 }
 
 .website > .website-header > .header-menu > ul > li > a {
   color: #fff;
   display: block;
-  line-height: 4.5;
+  line-height: 4.3;
   text-align: center;
   text-decoration: none;
   font-family: sans-serif;
