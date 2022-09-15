@@ -1,21 +1,26 @@
 * {
     margin: 0px;
     padding: 0px;
+    user-select: none;
+    border: none;
 }
 
 .website {
-    margin: 0 auto;
+    margin: 0px auto;
 
     &>.website-header {
         display: flex;
+        flex-direction: column;
+        background: #f6f2f2;
         justify-content: center;
 
         &>.header-menu {
-            margin: 10px;
+            width: 1500px;
+            margin: 10px auto;
             background: #000;
 
             &>ul {
-                width: 900px;
+                width: 1500px;
                 height: 68px;
                 display: flex;
                 flex-wrap: wrap;
@@ -44,6 +49,23 @@
 
                     }
 
+                }
+
+            }
+
+        }
+
+        &>.header-main {
+            display: flex;
+            margin: 0px auto;
+            font-family: sans-serif;
+
+            &>.main-left {
+                width: 50%;
+
+                & > .left-title {
+                    font-size: 60px;
+                    // text-transform: capitalize;
                 }
 
             }
