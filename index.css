@@ -1,0 +1,62 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.website {
+  margin: 0 auto;
+}
+
+.website > .website-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.website > .website-header > .header-menu {
+  margin: 10px;
+  background: #000;
+}
+
+.website > .website-header > .header-menu > ul {
+  width: 900px;
+  height: 68px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.website > .website-header > .header-menu > ul > li {
+  width: 100px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  margin: 0px 10px 0px 10px;
+}
+
+.website > .website-header > .header-menu > ul > li > a {
+  color: #fff;
+  display: block;
+  line-height: 4.5;
+  text-align: center;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.website > .website-header > .header-menu > ul > li > a:hover {
+  color: #fff;
+  background: #ff3f40;
+}
+/*# sourceMappingURL=index.css.map */
