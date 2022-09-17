@@ -137,4 +137,126 @@
 
     }
 
+    &>.website-main-section {
+        margin-top: 110px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+        &>.main-section-left {
+            width: 50%;
+            display: flex;
+            font-family: sans-serif;
+            flex-direction: column;
+            justify-content: space-evenly;
+            padding-left: 150px;
+
+            &>.left-title {
+                font-size: 42.216px;
+                color: rgba(0, 0, 0, 0.8);
+                font-weight: bold;
+                text-transform: uppercase;
+                line-height: 1.31;
+                text-align: left;
+                font-family: sans-serif;
+            }
+
+            &>.left-desc {
+                width: 517px;
+                font-size: 16px;
+                color: rgb(0, 0, 0);
+                line-height: 1.75;
+                text-align: left;
+            }
+
+            &>.left-button {
+                width: 223px;
+                height: 51px;
+                background: none;
+                border-radius: 5px;
+                border: 2px solid rgb(255, 0, 0);
+            }
+
+        }
+
+        &>.main-section-right {
+            width: 50%;
+            display: flex;
+            flex-direction: row;
+            padding-right: 150px;
+            box-sizing: border-box;
+            justify-content: space-evenly;
+
+            &>.right-first-column {
+
+                &>.first-column-card {
+                    width: 250px;
+                    margin: 10px;
+                    height: 256px;
+                    display: flex;
+                    flex-direction: column;
+                    font-family: sans-serif;
+                    justify-content: space-around;
+
+                    &>.card-img {
+                        width: 41px;
+                        height: 41px;
+                    }
+
+                    &>.card-title {
+                        font-size: 27px;
+                        color: rgba(0, 0, 0, 0.702);
+                        line-height: 1.2;
+                        text-align: left;
+                    }
+
+                    &>.card-desc {
+                        font-size: 16px;
+                        color: rgba(0, 0, 0, 0.702);
+                        line-height: 1.75;
+                        text-align: left;
+                    }
+
+                }
+
+            }
+
+            &>.right-second-column {
+
+                &>.second-column-card {
+                    width: 250px;
+                    margin: 10px;
+                    height: 256px;
+                    display: flex;
+                    flex-direction: column;
+                    font-family: sans-serif;
+                    justify-content: space-around;
+
+                    &>.card-img {
+                        width: 41px;
+                        height: 41px;
+                    }
+
+                    &>.card-title {
+                        font-size: 27px;
+                        color: rgba(0, 0, 0, 0.702);
+                        line-height: 1.2;
+                        text-align: left;
+                    }
+
+                    &>.card-desc {
+                        font-size: 16px;
+                        color: rgba(0, 0, 0, 0.702);
+                        line-height: 1.75;
+                        text-align: left;
+                    }
+
+                }
+
+            }
+
+        }
+
+    }
+
 }
