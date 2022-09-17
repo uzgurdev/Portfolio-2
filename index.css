@@ -75,15 +75,82 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 0px auto;
+  margin: 50px auto;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   font-family: sans-serif;
 }
 
 .website > .website-header > .header-main > .main-left {
   width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 150px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .website > .website-header > .header-main > .main-left > .left-title {
+  text-align: left;
   font-size: 60px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.website > .website-header > .header-main > .main-left > .left-desc {
+  width: 516px;
+  height: 77px;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.702);
+  line-height: 1.75;
+  text-align: left;
+}
+
+.website > .website-header > .header-main > .main-left > .left-button {
+  width: 227px;
+  height: 55px;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  line-height: 1.878;
+  border-radius: 5px;
+  background: #ff2d2d;
+  font-family: sans-serif;
+  color: white;
+}
+
+.website > .website-header > .header-main > .main-right > .right-img {
+  width: 551px;
+  height: 356px;
+  background: url("./img/system1.jpg") center center/cover;
+  -webkit-box-shadow: 0 0 25px rgba(0, 0, 0, 0.368);
+          box-shadow: 0 0 25px rgba(0, 0, 0, 0.368);
+}
+
+.website > .website-header > .header-main > .main-right > .right-img > .img-bgcurtain {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.website > .website-header > .header-main > .main-right > .right-img > .img-bgcurtain > a {
+  position: relative;
+}
+
+.website > .website-header > .header-main > .main-right > .right-img > .img-bgcurtain > a > .img-icon {
+  top: 150px;
+  left: 250px;
+  position: absolute;
+  cursor: pointer;
 }
 /*# sourceMappingURL=index.css.map */
