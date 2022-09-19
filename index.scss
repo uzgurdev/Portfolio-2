@@ -1,8 +1,18 @@
 * {
     margin: 0px;
     padding: 0px;
-    user-select: none;
     outline: none;
+    user-select: auto;
+}
+
+*::selection {
+    color: #fff;
+    background-color: #ff3f40;
+}
+
+.active {
+    color: #fff;
+    background: #ff3f40;
 }
 
 .website {
@@ -96,6 +106,14 @@
                     background: #ff2d2d;
                     font-family: sans-serif;
                     color: rgb(255, 255, 255);
+
+                    &:hover {
+                        color: #000;
+                        cursor: pointer;
+                        background: none;
+                        border: 2px solid rgb(255, 0, 0);
+                    }
+
                 }
 
             }
@@ -172,9 +190,18 @@
             &>.left-button {
                 width: 223px;
                 height: 51px;
+                font-size: 17px;
+                font-weight: 500;
                 background: none;
                 border-radius: 5px;
                 border: 2px solid rgb(255, 0, 0);
+
+                &:hover {
+                    color: #fff;
+                    cursor: pointer;
+                    background: #ff2d2d;
+                }
+
             }
 
         }

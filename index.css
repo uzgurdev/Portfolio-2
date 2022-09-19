@@ -1,11 +1,26 @@
 * {
   margin: 0px;
   padding: 0px;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
   outline: none;
+  -webkit-user-select: auto;
+     -moz-user-select: auto;
+      -ms-user-select: auto;
+          user-select: auto;
+}
+
+*::-moz-selection {
+  color: #fff;
+  background-color: #ff3f40;
+}
+
+*::selection {
+  color: #fff;
+  background-color: #ff3f40;
+}
+
+.active {
+  color: #fff;
+  background: #ff3f40;
 }
 
 .website {
@@ -129,6 +144,13 @@
   color: white;
 }
 
+.website > .website-header > .header-main > .main-left > .left-button:hover {
+  color: #000;
+  cursor: pointer;
+  background: none;
+  border: 2px solid red;
+}
+
 .website > .website-header > .header-main > .main-right > .right-img {
   width: 551px;
   height: 356px;
@@ -204,9 +226,17 @@
 .website > .website-main-section > .main-section-left > .left-button {
   width: 223px;
   height: 51px;
+  font-size: 17px;
+  font-weight: 500;
   background: none;
   border-radius: 5px;
   border: 2px solid red;
+}
+
+.website > .website-main-section > .main-section-left > .left-button:hover {
+  color: #fff;
+  cursor: pointer;
+  background: #ff2d2d;
 }
 
 .website > .website-main-section > .main-section-right {
