@@ -6,6 +6,7 @@
      -moz-user-select: auto;
       -ms-user-select: auto;
           user-select: auto;
+  scroll-behavior: smooth;
 }
 
 *::-moz-selection {
@@ -177,7 +178,7 @@
 }
 
 .website > .website-main-section {
-  margin-top: 110px;
+  margin: 110px auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -324,5 +325,54 @@
   color: rgba(0, 0, 0, 0.702);
   line-height: 1.75;
   text-align: left;
+}
+
+.website > .line {
+  height: 2px;
+  margin: 0 150px;
+  background: #ececec;
+}
+
+.website > .website-portfolio {
+  margin-top: 110px;
+}
+
+.website > .website-portfolio > .portfolio-texts {
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: sans-serif;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-bottom: 89px;
+}
+
+.website > .website-portfolio > .portfolio-texts > .texts-title {
+  font-size: 42px;
+  text-transform: uppercase;
+}
+
+.website > .website-portfolio > .portfolio-texts > .texts-desc {
+  width: 434px;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.702);
+  line-height: 1.75;
+  text-align: center;
+}
+
+.website > .website-portfolio > .portfolio-texts > .texts-line {
+  height: 5px;
+  width: 130px;
+  border-radius: 25px;
+  background: #ff2d2d;
 }
 /*# sourceMappingURL=index.css.map */
