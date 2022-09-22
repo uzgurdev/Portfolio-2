@@ -295,6 +295,7 @@
 
     &>.website-portfolio {
         margin-top: 110px;
+        margin-bottom: 140px;
 
         &>.portfolio-texts {
             height: 200px;
@@ -323,6 +324,64 @@
                 width: 130px;
                 border-radius: 25px;
                 background: #ff2d2d;
+            }
+
+        }
+
+        &>.portfolio-galery {
+
+            &>.galery-navbar {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                margin-bottom: 66px;
+                justify-content: center;
+
+                &>ul {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    list-style-type: none;
+                    justify-content: space-evenly;
+
+                    &>li {
+                        width: 200px;
+
+                        &>a {
+                            display: block;
+                            text-align: center;
+                            font-size: 20px;
+                            line-height: 1.091;
+                            text-decoration: none;
+                            font-family: sans-serif;
+                            text-transform: uppercase;
+                            color: rgba(0, 0, 0, 0.702);
+
+                            &:hover {
+                                color: #ff3f40;
+                            }
+
+                        }
+
+                    }
+
+                }
+
+            }
+
+            &>.galery-images {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 20px 20px;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+
+                &>.images-img {
+                    width: 298px;
+                    height: 290px;
+                }
+
             }
 
         }

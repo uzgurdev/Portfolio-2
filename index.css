@@ -335,6 +335,7 @@
 
 .website > .website-portfolio {
   margin-top: 110px;
+  margin-bottom: 140px;
 }
 
 .website > .website-portfolio > .portfolio-texts {
@@ -374,5 +375,82 @@
   width: 130px;
   border-radius: 25px;
   background: #ff2d2d;
+}
+
+.website > .website-portfolio > .portfolio-galery > .galery-navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 66px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.website > .website-portfolio > .portfolio-galery > .galery-navbar > ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style-type: none;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.website > .website-portfolio > .portfolio-galery > .galery-navbar > ul > li {
+  width: 200px;
+}
+
+.website > .website-portfolio > .portfolio-galery > .galery-navbar > ul > li > a {
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.091;
+  text-decoration: none;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.702);
+}
+
+.website > .website-portfolio > .portfolio-galery > .galery-navbar > ul > li > a:hover {
+  color: #ff3f40;
+}
+
+.website > .website-portfolio > .portfolio-galery > .galery-images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 20px 20px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.website > .website-portfolio > .portfolio-galery > .galery-images > .images-img {
+  width: 298px;
+  height: 290px;
 }
 /*# sourceMappingURL=index.css.map */
