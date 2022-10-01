@@ -16,6 +16,10 @@
     background: #ff3f40;
 }
 
+// .active-member {
+//     transform: translateY(0) !important;
+// }
+
 .website {
     margin: 0px auto;
 
@@ -497,11 +501,17 @@
                     align-items: center;
                     justify-content: center;
 
-                    &>.img-images {
+                    &>.imgs-images {
+                        position: relative;
+                        overflow: hidden;
 
-                        &>.imgs-of-member {
+                        &>.images-of-member {
                             width: 197px;
-                            height: 214px;
+                            height: 214px;    
+                        }
+
+                        &>.images-title {
+                            
                         }
 
                     }

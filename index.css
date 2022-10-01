@@ -605,7 +605,12 @@
           justify-content: center;
 }
 
-.website > .website-team > .team-members > .members-about > .about-imgs > .img-images > .imgs-of-member {
+.website > .website-team > .team-members > .members-about > .about-imgs > .imgs-images {
+  position: relative;
+  overflow: hidden;
+}
+
+.website > .website-team > .team-members > .members-about > .about-imgs > .imgs-images > .images-of-member {
   width: 197px;
   height: 214px;
 }
