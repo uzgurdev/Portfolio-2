@@ -440,7 +440,12 @@
             &>.members-main-img {
                 width: 321px;
                 height: 458px;
-                background: url('./img/Rahmatulloh.jpg') no-repeat center center / cover;
+                // background: url('./img/Rahmatulloh.jpg') no-repeat center center / cover;
+
+                &>img {
+                    display: block;
+                }
+
             }
 
             &>.members-about {
@@ -495,7 +500,7 @@
                         height: 214px;
                         background: url('./img/Rahmatulloh.jpg') no-repeat center center / cover;
 
-                        & > .of-member-curtain {
+                        &>.of-member-curtain {
                             display: none;
                             height: 37px;
                             font-size: 18px;
@@ -510,7 +515,7 @@
                             transform: translateY(800px);
                         }
 
-                        
+
                         &:hover .of-member-curtain {
                             display: block;
                             transition: all 15s;

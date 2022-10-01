@@ -218,3 +218,7 @@ $(document).ready(function () {
     })
 
 })
+
+function pres(imagess) {
+    main-img.src = imagess.src;
+}
