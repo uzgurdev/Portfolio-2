@@ -24,6 +24,11 @@
   background: #ff3f40;
 }
 
+.active-member {
+  -webkit-transform: translateY(0) !important;
+          transform: translateY(0) !important;
+}
+
 .website {
   margin: 0px auto;
 }
@@ -613,5 +618,21 @@
 .website > .website-team > .team-members > .members-about > .about-imgs > .imgs-images > .images-of-member {
   width: 197px;
   height: 214px;
+}
+
+.website > .website-team > .team-members > .members-about > .about-imgs > .imgs-images > .images-title {
+  top: 177px;
+  width: 197px;
+  height: 37px;
+  color: #fff;
+  line-height: 2.2;
+  position: absolute;
+  text-align: center;
+  font-family: sans-serif;
+  -webkit-transition: all 5s;
+  transition: all 5s;
+  -webkit-transform: translateY(400px);
+          transform: translateY(400px);
+  background: rgba(0, 0, 0, 0.7);
 }
 /*# sourceMappingURL=index.css.map */

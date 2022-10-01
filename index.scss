@@ -16,9 +16,9 @@
     background: #ff3f40;
 }
 
-// .active-member {
-//     transform: translateY(0) !important;
-// }
+.active-member {
+    transform: translateY(0) !important;
+}
 
 .website {
     margin: 0px auto;
@@ -511,7 +511,17 @@
                         }
 
                         &>.images-title {
-                            
+                            top: 177px;
+                            width: 197px;
+                            height: 37px;
+                            color: #fff;
+                            line-height: 2.2;
+                            position: absolute;
+                            text-align: center;
+                            font-family: sans-serif;
+                            transition: all 5s;
+                            transform: translateY(400px);
+                            background: rgba(0, 0, 0, 0.7);
                         }
 
                     }
