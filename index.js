@@ -70,7 +70,8 @@ $(document).ready(function () {
 
         $("#mockup").css({
 
-            "display": "none",
+            "display": "block",
+            "display": "none"
 
         })
 
@@ -220,5 +221,5 @@ $(document).ready(function () {
 })
 
 function pres(imagess) {
-    main-img.src = imagess.src;
+    mainimg.src = imagess.src;
 }

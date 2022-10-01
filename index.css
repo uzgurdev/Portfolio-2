@@ -530,7 +530,9 @@
   height: 458px;
 }
 
-.website > .website-team > .team-members > .members-main-img > img {
+.website > .website-team > .team-members > .members-main-img > #mainimg {
+  width: 100%;
+  height: 100%;
   display: block;
 }
 
@@ -603,61 +605,8 @@
           justify-content: center;
 }
 
-.website > .website-team > .team-members > .members-about > .about-imgs > .imgs-of-member {
+.website > .website-team > .team-members > .members-about > .about-imgs > .img-images > .imgs-of-member {
   width: 197px;
   height: 214px;
-  background: url("./img/Rahmatulloh.jpg") no-repeat center center/cover;
-}
-
-.website > .website-team > .team-members > .members-about > .about-imgs > .imgs-of-member > .of-member-curtain {
-  display: none;
-  height: 37px;
-  font-size: 18px;
-  line-height: 2.5;
-  position: relative;
-  text-align: center;
-  font-style: oblique;
-  font-family: sans-serif;
-  text-transform: uppercase;
-  color: white;
-  background: rgba(0, 0, 0, 0.5);
-  -webkit-transform: translateY(800px);
-          transform: translateY(800px);
-}
-
-.website > .website-team > .team-members > .members-about > .about-imgs > .imgs-of-member:hover .of-member-curtain {
-  display: block;
-  -webkit-transition: all 15s;
-  transition: all 15s;
-  -webkit-transform: translateY(177px);
-          transform: translateY(177px);
-}
-
-.website > .website-team > .team-members > .members-about > .about-imgs > .imgs-of-member:nth-child(2) {
-  background: url("./img/Mashrab_oka.jpg") no-repeat center center/cover;
-}
-
-.website > .website-team > .team-members > .members-about > .about-imgs > .imgs-of-member:nth-child(3) {
-  background: url("./img/John.jpg") no-repeat center center/cover;
-}
-
-.website > .website-team > .team-members > .members-about > .about-imgs > .imgs-of-member:nth-child(3):hover .of-member-curtain {
-  display: block;
-  -webkit-transition: all 15s;
-  transition: all 15s;
-  -webkit-transform: translateY(175px);
-          transform: translateY(175px);
-}
-
-.website > .website-team > .team-members > .members-about > .about-imgs > .imgs-of-member:nth-child(4) {
-  background: url("./img/Martin.jpg") no-repeat center center/cover;
-}
-
-.website > .website-team > .team-members > .members-about > .about-imgs > .imgs-of-member:nth-child(4):hover .of-member-curtain {
-  display: block;
-  -webkit-transition: all 15s;
-  transition: all 15s;
-  -webkit-transform: translateY(175px);
-          transform: translateY(175px);
 }
 /*# sourceMappingURL=index.css.map */
