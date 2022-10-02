@@ -24,11 +24,6 @@
   background: #ff3f40;
 }
 
-.active-member {
-  -webkit-transform: translateY(0) !important;
-          transform: translateY(0) !important;
-}
-
 .website {
   margin: 0px auto;
 }
@@ -629,8 +624,8 @@
   position: absolute;
   text-align: center;
   font-family: sans-serif;
-  -webkit-transition: all 5s;
-  transition: all 5s;
+  -webkit-transition: all 1s;
+  transition: all 1s;
   -webkit-transform: translateY(400px);
           transform: translateY(400px);
   background: rgba(0, 0, 0, 0.7);
