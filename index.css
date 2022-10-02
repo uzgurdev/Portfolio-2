@@ -630,4 +630,78 @@
           transform: translateY(400px);
   background: rgba(0, 0, 0, 0.7);
 }
+
+.website > .website-subscribe {
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  background: #F5F0DD;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.website > .website-subscribe > .subscribe-text {
+  margin: 142px 0 66px 0;
+}
+
+.website > .website-subscribe > .subscribe-text > .text-title {
+  font-size: 42px;
+  margin-bottom: 40px;
+  font-family: sans-serif;
+}
+
+.website > .website-subscribe > .subscribe-text > .text-desc {
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+.website > .website-subscribe > form {
+  margin-bottom: 140px;
+}
+
+.website > .website-subscribe > form > input[type=email] {
+  width: 514px;
+  height: 79px;
+  border: none;
+  padding: 30px;
+  font-size: 18px;
+  margin-right: 20px;
+  border-radius: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.website > .website-subscribe > form > input[type=email]::-webkit-input-placeholder {
+  font-size: 18px;
+}
+
+.website > .website-subscribe > form > input[type=email]:-ms-input-placeholder {
+  font-size: 18px;
+}
+
+.website > .website-subscribe > form > input[type=email]::-ms-input-placeholder {
+  font-size: 18px;
+}
+
+.website > .website-subscribe > form > input[type=email]::placeholder {
+  font-size: 18px;
+}
+
+.website > .website-subscribe > form > input[type=button] {
+  color: #fff;
+  width: 214px;
+  height: 79px;
+  border: none;
+  font-size: 18px;
+  border-radius: 5px;
+  font-family: sans-serif;
+  background: #ff2d2d;
+}
 /*# sourceMappingURL=index.css.map */
