@@ -624,8 +624,8 @@
   position: absolute;
   text-align: center;
   font-family: sans-serif;
-  -webkit-transition: all 1s;
-  transition: all 1s;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
   -webkit-transform: translateY(400px);
           transform: translateY(400px);
   background: rgba(0, 0, 0, 0.7);
@@ -700,8 +700,9 @@
   height: 79px;
   border: none;
   font-size: 18px;
+  cursor: pointer;
   border-radius: 5px;
-  font-family: sans-serif;
   background: #ff2d2d;
+  font-family: sans-serif;
 }
 /*# sourceMappingURL=index.css.map */
