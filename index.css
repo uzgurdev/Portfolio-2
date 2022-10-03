@@ -705,4 +705,63 @@
   background: #ff2d2d;
   font-family: sans-serif;
 }
+
+.website > .website-contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.website > .website-contact > .contact-send {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.website > .website-contact > .contact-send > .send-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: sans-serif;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.website > .website-contact > .contact-send > .send-text > .text-title {
+  font-size: 42px;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.website > .website-contact > .contact-send > .send-text > .text-desc {
+  font-size: 18px;
+  text-align: left;
+  height: 62.058px;
+  width: 639.747px;
+  line-height: 1.75;
+  color: rgba(0, 0, 0, 0.702);
+}
+
+.website > .website-contact > .contact-send > .send-text > .text-line {
+  height: 3px;
+  width: 132px;
+  background-color: #ff2d2d;
+}
 /*# sourceMappingURL=index.css.map */

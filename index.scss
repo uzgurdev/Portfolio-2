@@ -503,7 +503,7 @@
 
                         &>.images-of-member {
                             width: 197px;
-                            height: 214px;    
+                            height: 214px;
                         }
 
                         &>.images-title {
@@ -530,7 +530,7 @@
 
     }
 
-    & >.website-subscribe {
+    &>.website-subscribe {
         color: #fff;
         display: flex;
         text-align: center;
@@ -546,7 +546,7 @@
                 margin-bottom: 40px;
                 font-family: sans-serif;
             }
-    
+
             &>.text-desc {
                 font-size: 16px;
                 font-family: sans-serif;
@@ -567,7 +567,7 @@
                 border-radius: 5px;
                 box-sizing: border-box;
                 font-family: sans-serif;
-                
+
                 &::placeholder {
                     font-size: 18px;
                 }
@@ -584,6 +584,51 @@
                 border-radius: 5px;
                 background: #ff2d2d;
                 font-family: sans-serif;
+            }
+
+        }
+
+    }
+
+    &>.website-contact {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+
+        &>.contact-send {
+            display: flex;
+            flex-direction: column;
+
+            &>.send-text {
+                display: flex;
+                flex-direction: column;
+                font-family: sans-serif;
+                justify-content: space-around;
+
+                &>.text-title {
+                    font-size: 42px;
+                    font-weight: bold;
+                    line-height: 1.2;
+                    text-align: left;
+                    text-transform: uppercase;
+                    color: rgba(0, 0, 0, 0.8);
+                }
+
+                &>.text-desc {
+                    font-size: 18px;
+                    text-align: left;
+                    height: 62.058px;
+                    width: 639.747px;
+                    line-height: 1.75;
+                    color: rgba(0, 0, 0, 0.702);
+                }
+
+                &>.text-line {
+                    height: 3px;
+                    width: 132px;
+                    background-color: rgb(255, 45, 45);
+                }
+
             }
 
         }
