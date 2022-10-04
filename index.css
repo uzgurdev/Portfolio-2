@@ -653,4 +653,40 @@
   font-size: 16px;
   text-decoration: none;
   font-family: sans-serif;
+}
+.website > .website__footer {
+  color: #fff;
+  height: 100px;
+  display: flex;
+  margin-top: 110px;
+  flex-direction: row;
+  align-items: center;
+  background: #313030;
+  font-family: sans-serif;
+  justify-content: space-around;
+}
+.website > .website__footer > .footer__author {
+  font-size: 16px;
+}
+.website > .website__footer > .footer__author > p > a {
+  color: rgb(142, 213, 255);
+  text-decoration: none;
+}
+.website > .website__footer > .footer__social-icons {
+  width: 250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.website > .website__footer > .footer__social-icons > .circle {
+  width: 50px;
+  height: 50px;
+  line-height: 51px;
+  text-align: center;
+  background: #fff;
+  border-radius: 50%;
+}
+.website > .website__footer > .footer__social-icons > .circle > a {
+  color: #313030;
+  font-size: 25px;
 }/*# sourceMappingURL=index.css.map */
