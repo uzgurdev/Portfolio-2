@@ -10,11 +10,11 @@
 </head>
 
 <body>
-    
+
     <div class="website">
 
         <!-- header started -->
-        <div class="website-header">
+        <div class="website__header">
             <div class="header-menu">
                 <ul>
                     <li class="links"><a href="#home">HOME</a></li>
@@ -43,7 +43,7 @@
         <!-- header ended -->
 
         <!-- main section started -->
-        <div class="website-main-section">
+        <div class="website__main-section">
             <div class="main-section-left">
                 <h4 class="left-title">
                     do you know we can provide for you ?
@@ -96,10 +96,10 @@
         </div>
         <!-- main section ended -->
 
-        <div class="line"></div>
+        <div class="website__line"></div>
 
         <!-- portfolio started -->
-        <div class="website-portfolio">
+        <div class="website__portfolio">
 
             <div class="portfolio-texts">
                 <h4 class="texts-title">
@@ -141,7 +141,7 @@
         <!-- portfolio ended  -->
 
         <!-- team started  -->
-        <div class="website-team">
+        <div class="website__team">
             <div class="team-text">
                 <h4 class="text-title">
                     meet our team
@@ -172,19 +172,23 @@
                     </ul>
                     <div class="about-imgs">
                         <div class="imgs-images">
-                            <img onclick="pres(this)" class="images-of-member" src="./img/Rahmatulloh.jpg" title="Rahmatulloh" id="Rahmatulloh">
+                            <img onclick="pres(this)" class="images-of-member" src="./img/Rahmatulloh.jpg"
+                                title="Rahmatulloh" id="Rahmatulloh">
                             <h3 class="images-title" id="titleR">Rahmatulloh</h3>
                         </div>
                         <div class="imgs-images">
-                            <img onclick="pres(this)" class="images-of-member" src="./img/Mashrab_oka.jpg" title="Mashrab" id="Mashrab">
+                            <img onclick="pres(this)" class="images-of-member" src="./img/Mashrab_oka.jpg"
+                                title="Mashrab" id="Mashrab">
                             <h3 class="images-title" id="titleM">Mashrab</h3>
                         </div>
                         <div class="imgs-images">
-                            <img onclick="pres(this)" class="images-of-member" src="./img/John.jpg" title="John" id="John">
+                            <img onclick="pres(this)" class="images-of-member" src="./img/John.jpg" title="John"
+                                id="John">
                             <h3 class="images-title" id="titleJ">John</h3>
                         </div>
                         <div class="imgs-images">
-                            <img onclick="pres(this)" class="images-of-member" src="./img/Martin.jpg" title="Martin" id="Martin">
+                            <img onclick="pres(this)" class="images-of-member" src="./img/Martin.jpg" title="Martin"
+                                id="Martin">
                             <h3 class="images-title" id="titleMn">Martin</h3>
                         </div>
                     </div>
@@ -194,14 +198,14 @@
         <!-- team ended  -->
 
         <!-- subscribe started -->
-        <div class="website-subscribe">
+        <div class="website__subscribe">
 
             <div class="subscribe-text">
 
                 <h2 class="text-title">
                     Design tips, tricks, and freebies. Delivered weekly.
                 </h2>
-                
+
                 <p class="text-desc">
                     Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod.
                 </p>
@@ -220,25 +224,47 @@
         <!-- subscribe ended -->
 
         <!-- Contact started -->
-        <div class="website-contact">
-            <div class="contact-send">
-                <div class="send-text">
-                    <h4 class="text-title">
-                        get in touch
+        <div class="website__contact">
+            <div class="contact__send">
+                <h4 class="text-title">
+                    get in touch
+                </h4>
+                <p class="text-desc">
+                    Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt ut labore
+                    et.ur adipis cing elit, sed do eiusmod tempor incididunt ut labore et. ur adipis cing elit, sed do
+                    eiusmod tempor incididunt ut labore et.
+                </p>
+                <div class="text-line"></div>
+            </div>
+            <div class="contact__info">
+
+                <form action="contact" class="info__form">
+
+                    <div class="form__inputs">
+                        <input type="text" name="contact" id="contact-name" placeholder="Name">
+                        <input type="email" name="contact" id="contact-email" placeholder="Your Mail">
+                    </div>
+
+                    <div class="form__message-button">
+                        <textarea name="contact" id="contact-text"
+                        placeholder="Type your message"></textarea>
+                        <input type="button" value="send message">
+                    </div>
+
+                </form>
+
+                <div class="info__information">
+                    <h4>
+                        contact info
                     </h4>
-                    <p class="text-desc">
-                        Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt ut labore et.ur adipis cing elit, sed do eiusmod tempor incididunt ut labore et. ur adipis cing elit, sed do eiusmod tempor incididunt ut labore et.
+                    <p>
+                        Toshkent, O'zbekiston
                     </p>
-                    <div class="text-line"></div>
+                    <a href="mailto:uzbmv2@gmail.com">uzbmv2@gmail.com</a>
+                    <a href="tel:+998(90)003-15-43">+998(90)003-15-43</a>
                 </div>
 
-                <form action="contact" class="send-form">
-                    <input type="text" name="contact" id="contact-name">
-                    <input type="email" name="contact" id="contact-email">
-                    <textarea name="contact" id="contact-text" cols="30" rows="10">Type your message</textarea>
-                </form>
             </div>
-            <div class="contact-info"></div>
         </div>
         <!-- Contact ended -->
 
