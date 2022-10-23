@@ -1,5 +1,8 @@
 @media (max-width: 1399.98px) {
-  .website .website__header {
+  .website > .website__header {
     width: 100%;
+  }
+  .website > .website__team > .team-members > .members-main-img {
+    margin: 0 20px 0 0;
   }
 }/*# sourceMappingURL=responsive.css.map */
