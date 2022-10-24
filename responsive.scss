@@ -35,6 +35,10 @@
       &>.contact__info {
         flex-wrap: nowrap;
 
+        &>form {
+          width: 830px;
+        }
+
         &>.info__information {
           width: 500px;
         }

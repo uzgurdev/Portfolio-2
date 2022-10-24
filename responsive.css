@@ -11,6 +11,9 @@
   .website > .website__contact > .contact__info {
     flex-wrap: nowrap;
   }
+  .website > .website__contact > .contact__info > form {
+    width: 830px;
+  }
   .website > .website__contact > .contact__info > .info__information {
     width: 500px;
   }
