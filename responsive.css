@@ -1,3 +1,11 @@
+@media (max-width: 1199.98px) {
+  .website {
+    overflow-x: hidden;
+  }
+  .website > .website__contact > .contact__info > form {
+    width: 800px;
+  }
+}
 @media (max-width: 1399.98px) {
   .website {
     margin: 0 auto;

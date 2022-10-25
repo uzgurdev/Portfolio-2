@@ -8,10 +8,30 @@
 @media (max-width: 991.98px) {}
 
 // Large devices (desktops, less than 1200px)
-@media (max-width: 1199.98px) {}
+@media (max-width: 1199.98px) {
+
+  .website {
+    overflow-x: hidden;
+
+    &>.website__contact {
+
+      &>.contact__info {
+
+        &>form {
+          width: 800px;
+        }
+
+      }
+
+    }
+
+  }
+
+}
 
 // X-Large devices (large desktops, less than 1400px)
 @media (max-width: 1399.98px) {
+
   .website {
     margin: 0 auto;
 
@@ -48,4 +68,5 @@
     }
 
   }
+
 }
